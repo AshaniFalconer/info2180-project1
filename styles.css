@@ -120,17 +120,32 @@ nav ul a:hover {
     color: white;
 }
 
-article {
+.stories h2 {
+    color: #5A67D8;
+}
+
+.stories h3 {
+    font-size: 18px;
+}
+
+.stories article {
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 30px;
     margin-bottom: 30px;
 }
 
-article img {
-    width: 200px;
-    height: 200px;
+.stories article img {
+    width: 150px;
+    height: 150px;
     object-fit: cover;
+    border-radius: 50%;
 }
+
+.stories a {
+    color: #5A67D8;
+}
+
 
 .newsletter {
     text-align: center;
