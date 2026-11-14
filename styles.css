@@ -93,6 +93,17 @@ nav ul a:hover {
     font-size: 21px;
 }
 
+.testing {
+    background-color: #4A5568;
+}
+
+.testing .btn {
+    background-color: #48BB78;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px, 20px;
+}
+
 .testing .container {
     display: flex;
     justify-content: space-between;
@@ -102,6 +113,11 @@ nav ul a:hover {
 
 .testing-description {
     flex: 1;
+}
+
+.testing-description h2,
+.testing-description p {
+    color: white;
 }
 
 article {
