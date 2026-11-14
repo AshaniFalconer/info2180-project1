@@ -15,6 +15,8 @@ body {
 }
 
 
+/* ------ HEADER ----- */
+
 header {
     background-color: #ffffff;
 }
@@ -29,6 +31,9 @@ header h1 {
     font-size: 18px;
     margin: 0;
 }
+
+
+/* --------------- LINKS ----- */
 
 nav ul {
     list-style: none;
@@ -48,6 +53,9 @@ nav ul a:hover {
     color: #5A67D8;
 }
 
+
+/* ------------- OVERVIEW-HERO ------ */
+
 .overview-hero {
     background-color: #E2E8F0;
 }
@@ -62,6 +70,9 @@ nav ul a:hover {
     width: 200px;
     height: auto;
 }
+
+
+/* ---------------- LEARN ABOUT ----- */
 
 .learn-about h2 {
     font-size: 24px;
@@ -93,6 +104,8 @@ nav ul a:hover {
     font-size: 21px;
 }
 
+
+/* --------------- TESTING ---------- */
 .testing {
     background-color: #4A5568;
 }
@@ -130,6 +143,8 @@ nav ul a:hover {
     padding: 60px 0;
 }
 
+
+/* ----------------- STORIES --------- */
 .stories h2 {
     color: #5A67D8;
 }
@@ -157,6 +172,7 @@ nav ul a:hover {
 }
 
 
+/* ------------------- NEWSLETTER ---------------- */
 .newsletter {
     text-align: center;
     background-color: #48BB78;
@@ -176,6 +192,9 @@ form {
 section {
     padding: 40px 0;
 }
+
+
+/* ----------------- FOOTER ---------- */
 
 footer {
     background-color: #4A5568;
