@@ -101,23 +101,33 @@ nav ul a:hover {
     background-color: #48BB78;
     border-radius: 5px;
     text-decoration: none;
-    padding: 10px, 20px;
+    padding: 12px 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    white-space: nowrap;
+    color: white;
 }
 
 .testing .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 40px;
 }
 
+.testing h2 {
+    margin-top: 0;
+}
+
+.testing p {
+    margin-bottom: 0;
+}
 
 .testing-description {
     flex: 1;
-}
-
-.testing-description h2,
-.testing-description p {
     color: white;
+    padding: 60px 0;
 }
 
 .stories h2 {
@@ -149,6 +159,12 @@ nav ul a:hover {
 
 .newsletter {
     text-align: center;
+    background-color: #48BB78;
+    color: white;
+}
+
+.newsletter .btn {
+    background-color: #5A67D8;
 }
 
 form {
@@ -161,4 +177,12 @@ section {
     padding: 40px 0;
 }
 
- 
+footer {
+    background-color: #4A5568;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
